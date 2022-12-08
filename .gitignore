@@ -71,6 +71,9 @@ Thumbs.db
 # ignore these plugins from the core
 wp-content/plugins/hello.php
 wp-content/plugins/akismet/
+wp-content/plugins/twentytwentytwo/
+wp-content/plugins/twentytwentyone/
+wp-content/plugins/twentytwentythree/
 
 # ignore specific themes
 wp-content/themes/twenty*/
