@@ -3,7 +3,8 @@
   <div class="xl:text-left">
     <span class="flex flex-col justify-center items-center mb-6 gap-x-3 gap-y-4 md:flex-row xl:justify-start">
       <span class="block w-[14px] h-[2px] bg-foreground"></span>
-      <p class="text-sm font-semibold px-[4.25rem] md:p-0">Changing the way you
+      <p class="text-sm font-semibold px-[4.25rem] md:p-0">
+        Changing the way you
         go to healthcare</p>
     </span>
 
@@ -18,5 +19,6 @@
       <button type="button" class="bg-primary rounded-lg font-bold text-white w-full py-2 right-0 top-0 md:absolute md:w-auto md:py-[18px] md:px-6">Subscribe</button>
     </form>
   </div>
-  <img src="../../../assets/images/header-image.png" alt="" class="w-full aspect-square object-cover" />
+  <img src="<?= get_stylesheet_directory_uri(); ?>" alt="" class="w-full aspect-square object-cover" />
 </section>
+<!-- END HERO SECTION -->
