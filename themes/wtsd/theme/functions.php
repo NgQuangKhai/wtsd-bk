@@ -146,3 +146,18 @@ require get_template_directory() . '/inc/template-tags.php';
  * Functions which enhance the theme by hooking into WordPress.
  */
 require get_template_directory() . '/inc/template-functions.php';
+if(function_exists('acf_register_block_type')){
+	add_action('acf/init','myfunc');
+}
+function myfunc(){
+	// register a hero-banner block.
+	acf_register_block_type(array(
+		'name'              => 'hero-banner',
+		'title'             => __('Hero Banner'),
+		'description'       => __('A custom block.'),
+		'render_template'   => 'template-parts/components/hero-banner/hero-banner.php',
+		'category'          => 'formatting',
+		'keywords'          => array('hero-banner', 'quote'),
+	));
+	
+}

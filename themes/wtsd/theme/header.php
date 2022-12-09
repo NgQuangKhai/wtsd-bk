@@ -15,16 +15,13 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-
-<?php wp_body_open(); ?>
-
-<div id="page">
-	<a href="#content" class="sr-only"><?php esc_html_e( 'Skip to content', 'wtsd' ); ?></a>
-
-	<?php get_template_part( 'template-parts/layout/header', 'content' ); ?>
-
-	<div id="content">
+	<!-- <div> -->
+	<?php wp_body_open(); ?>
